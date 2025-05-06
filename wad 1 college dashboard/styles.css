@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  .sidebar {
+    min-height: 100vh;
+    background-color: #343a40;
+    color: white;
+  }
+  .sidebar a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+  }
+  .sidebar a:hover {
+    background-color: #495057;
+  }
+  .card {
+    box-shadow: 0 0.15rem 0.75rem rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      position: absolute;
+      width: 200px;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+    }
+    .sidebar.active {
+      transform: translateX(0);
+    }
+  }
