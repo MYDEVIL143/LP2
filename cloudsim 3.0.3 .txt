@@ -1,0 +1,16 @@
+search cloudsi 3.0.3 free download 
+download 3.0.3 ( cloudsim-3.0.3.zip )
+
+
+search common apache math 4
+then open commens-math4-4.0-beta1-bin.zip
+
+open math 4 then copy 1st jar file
+
+then paste into cloud sim then jar
+
+after that copy cloudsim folder aand paste it in documents 
+
+then after open eclips open java projects
+then after open cloudsim3.0.3
+ater next and finish

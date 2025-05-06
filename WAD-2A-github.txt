@@ -1,0 +1,17 @@
+1) first make a folder on vs code 
+2) make any file in that folder with extension[.txt, .html, .css]
+3)  after making file write code(anything) in file &save it 
+4) login into your GitHub acc and make new repo but dont insert code.
+5) open v s code terminal 
+6)run following commands
+i. git --version
+ii. git init
+iii. git add .
+iv. git status
+v.  git config --global user.email "your  GitHub email id"
+vi.  git config --global user.name "your GitHub username"
+vii. git remote add origin "link of your new repo"
+viii. git commit -m "first commit"
+ix. git status
+x. git push -u origin master
+ it take some time then go to your GitHub acc and refresh the page to check .
